@@ -1,0 +1,70 @@
+@import "../../styles/variables";
+
+
+
+@media screen and (min-width: 320px){
+
+    .header{
+        padding: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0, 0, 0);
+
+        &_links{
+            display: none;
+            gap: 20px;
+        }
+    }
+    .navbarmenu{
+        display: block;
+    }
+
+    
+ }
+
+@media screen and (min-width: 768px){
+
+    .header{
+        padding: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(24, 24, 24);
+
+        &_links{
+            display: flex;
+            gap: 20px;
+        }
+    }
+    .subtitle{
+        color: white;
+        font-weight: 300;
+        display: inline-block;
+        position: relative;
+    }
+    .subtitle::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $color-primary;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .subtitle:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .navbarmenu{
+        display: none;
+    }
+    
+ }

@@ -1,0 +1,1143 @@
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .header {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  }
+  .header_links {
+    display: none;
+    gap: 20px;
+  }
+  .navbarmenu {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+  }
+  .header_links {
+    display: flex;
+    gap: 20px;
+  }
+  .subtitle {
+    color: white;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+  }
+  .subtitle::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffaa00;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .subtitle:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .navbarmenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .footer {
+    padding: 3rem;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .Button {
+    border: solid 1px #ffaa00;
+    margin: 25px;
+    height: 4.5rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .Button:hover {
+    background: #ffaa00;
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .ButtonText {
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .CardContainer {
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+  }
+  .CardContainerImg {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .CardContainerDesc {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 60%);
+    height: 100%;
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 10px;
+  }
+  .CardDescTitle {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .CardDescText {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+  }
+  .CardDescTags {
+    display: flex;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .TagContainer {
+    background-color: #ffaa00;
+    color: white;
+    width: 100px;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .TagText {
+    padding: 5px;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+.sidebar {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 6rem;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  line-height: 36px;
+  gap: 2rem;
+  z-index: 10;
+  margin-top: 20px;
+}
+
+.subtitle {
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.subtitle::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffaa00;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.subtitle:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .imgContainer {
+    background-image: url("/mountainbg.jpg");
+    width: 100%;
+  }
+  .carouselContainer {
+    height: 300px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.637);
+    gap: 10px;
+  }
+  .Carouseltitle {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    width: 40%;
+  }
+  .slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+    width: 50%;
+  }
+  .slideshowSlider {
+    height: 65px;
+    transition: ease 1000ms;
+  }
+  .slide {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    border-radius: px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carouselContainer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .titleCtn {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .APContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .APDescContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .APImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 0 15px 0 15px;
+    margin: 25px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .APTitle {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .APText {
+    color: white;
+    text-justify: auto;
+    width: 80%;
+    font-size: 14px;
+    padding: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .APContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+  }
+  .APTitle {
+    padding: 25px;
+  }
+  .APImg {
+    height: 330px;
+    width: 330px;
+  }
+  .APDescContainer {
+    width: 50%;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .PortfolioBGContainer {
+    background-image: url("/mountainbg.jpg");
+    width: 100%;
+  }
+  .PortfolioContainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    gap: 10px;
+  }
+  .Portfoliotitle {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+  }
+  .PortfolioSpan {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+    opacity: 0.3;
+    align-self: center;
+  }
+  .Portfoliotitlecontainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 51px;
+  }
+  .CardsContainer {
+    display: flex;
+    gap: 20px;
+  }
+  .DesktopCarContainer {
+    display: none;
+  }
+  .CarourelContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .DesktopCarContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .CarourelContainer {
+    display: none;
+  }
+  .PortfolioContainer {
+    padding: 3rem;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .CardContainer {
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+  }
+  .CardContainerImg {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .CardContainerDesc {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 60%);
+    height: 100%;
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 10px;
+  }
+  .CardDescTitle {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .CardDescText {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+  }
+  .CardDescTags {
+    display: flex;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .ContactFormSection {
+    width: 100%;
+  }
+  .ContactFormContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 25px;
+  }
+  .ContactTitle {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+  }
+  .ContactBGContainer {
+    background-image: url("/mountainbg.jpg");
+    width: 100%;
+  }
+  .ContactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 25px;
+  }
+  .Form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px 0px;
+    width: 70%;
+  }
+  .FormMail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .FormField {
+    border: solid 1px #ffaa00;
+    margin: 15px 0px;
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  .FormField2 {
+    border: solid 1px #ffaa00;
+    margin: 15px 0px;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  .FormButton {
+    border: solid 1px #ffaa00;
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    color: white;
+  }
+  .linkscontainer {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Form {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .PageAPContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .PageAPImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 0 15px 0 15px;
+    margin: 25px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .PageAPDescContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .PageAPTitle {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    display: inline;
+  }
+  .PageAPText {
+    color: white;
+    text-justify: auto;
+    width: 80%;
+    font-size: 14px;
+    padding: 25px;
+  }
+  .PageAPImghidden {
+    height: 200px;
+    width: 200px;
+    border-radius: 0 15px 0 15px;
+    margin: 25px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: none;
+  }
+  .PageAPCol1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .PageAPCol2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .PageAPContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .PageAPTitle {
+    display: none;
+  }
+  .PageAPImghidden {
+    display: block;
+  }
+  .PageAPCol1 {
+    width: 40%;
+  }
+  .PageAPCol2 {
+    width: 40%;
+    position: relative;
+    bottom: 89px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .Competencestitle {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+  }
+  .Competencedesccontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Competencetitlecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+  }
+  .Competencestext {
+    width: 70%;
+    text-align: justify;
+  }
+  .CompetencesFront {
+    width: 100%;
+    color: white;
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100vh;
+}/*# sourceMappingURL=page.module.css.map */

@@ -1,0 +1,73 @@
+@import "../../styles/variables";
+
+
+
+@media screen and (min-width: 320px){
+
+    .PortfolioBGContainer{
+        background-image: url('/mountainbg.jpg');
+        width: 100%;
+    }
+    .PortfolioContainer{
+        padding: 1rem;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.637);
+        gap: 10px;
+    }
+    .Portfoliotitle{
+        font-family: "Playfair Display";
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+    }
+    .PortfolioSpan{
+        font-family: "Playfair Display";
+        font-weight: 600;
+        font-size: 55px;
+        color: white;
+        opacity: 0.3;
+        align-self: center;
+    }
+    .Portfoliotitlecontainer{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 51px;
+    }
+    .CardsContainer{
+        display: flex;
+        gap: 20px;
+    }
+    .DesktopCarContainer{
+        display: none;
+    }
+    .CarourelContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    }
+
+@media screen and (min-width: 768px){
+
+    .DesktopCarContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .CarourelContainer{
+        display: none;
+    }
+    .PortfolioContainer{
+        padding: 3rem;
+        
+    }
+    
+ }

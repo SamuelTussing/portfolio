@@ -1,0 +1,29 @@
+ [ 
+    {
+        "id":"1",
+        "title":"Cinnamon",
+        "image":"/img/bakery-mockup.png",
+        "text":"Création d'une application web responsive pour une boulangeie fictive.",
+        "tags": [
+            "SASS","NEXTJS","RESPONSIVE"
+        ]
+    },
+    {
+        "id":"2",
+        "title":"Kasa",
+        "image":"/img/kasa-mockup.png",
+        "text":"Création d'une application web de location immobilière.",
+        "tags": [
+            "SASS","REACT","API"
+        ]
+    },
+    {
+        "id":"3",
+        "title":"Ohmyfood",
+        "image":"/img/ohmyfood-mockup.png",
+        "text":"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
+        "tags": [
+            "CSS","ANIMATIONS","RESPONSIVE"
+        ]
+    }
+]
