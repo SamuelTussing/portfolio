@@ -843,6 +843,175 @@
   }
 }
 @media screen and (min-width: 320px) {
+  .CardContainer1 {
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+    margin: 50px 0px;
+  }
+  .CardContainerImg {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .CardContainerDesc1 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 80%);
+    height: 150%;
+    position: relative;
+    bottom: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+  }
+  .CardDescspan {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    bottom: 100px;
+    display: none;
+    text-align: left;
+    width: 80%;
+  }
+  .CardContainerDesc1:focus {
+    bottom: 410px;
+    transition: all 0.8s ease-in;
+  }
+  .CardContainerDesc1:focus p {
+    display: none;
+  }
+  .CardContainerDesc1:focus span {
+    display: block;
+  }
+  .CardContainerDesc1:focus a {
+    display: flex;
+    opacity: 1;
+    transition: all 0.8s ease-out;
+  }
+  .CardDescTitle1 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+  }
+  .CardDescText1 {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    bottom: 100px;
+    text-align: left;
+    width: 85%;
+  }
+  .CardDescTags1 {
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    width: 85%;
+  }
+  .CardLink {
+    border: solid 1px #ffaa00;
+    margin: 25px;
+    height: 2.5rem;
+    width: 15.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    cursor: pointer;
+    position: relative;
+    bottom: 450px;
+    color: white;
+  }
+  @keyframes scale-up-ver-center {
+    0% {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    20% {
+      transform: scaleY(0.4);
+      opacity: 0;
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  .CardLink:hover {
+    background: #ffaa00;
+  }
+  .CardLinkgh {
+    border: solid 1px #ffaa00;
+    font-size: 14px;
+    margin: 25px;
+    height: 2.5rem;
+    width: 9rem;
+    display: none;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2784313725);
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    opacity: 0;
+    animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+  }
+  .CardLinkgh:hover {
+    background: #ffaa00;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
   .ContactFormSection {
     width: 100%;
   }
@@ -1132,6 +1301,52 @@
   .CompetencesFront {
     width: 100%;
     color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .PortfolioBGContainer1 {
+    width: 100%;
+    background-color: black;
   }
 }
 .main {

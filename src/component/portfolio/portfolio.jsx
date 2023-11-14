@@ -10,7 +10,7 @@ import ArrowRight from "../../../public/img/arrow_right.png"
 
 
 
-const Portfolio = () => {
+const PortfolioComp = () => {
 
     const [CurrentIndex, SetCurrentIndex] = useState(0);
     let nbrProjets = data.length;
@@ -69,4 +69,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default PortfolioComp
