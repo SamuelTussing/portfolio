@@ -2,6 +2,7 @@
 import styles from "@/styles/page.module.scss"
 import Card from "../card/card"
 import data from '../../data/data.json';
+//import datas from '../../data/competences.json';
 import { useState } from "react";
 import Image from "next/image";
 import ArrowLeft from "../../../public/img/arrow_left.png"
@@ -15,6 +16,7 @@ const Portfolio = () => {
     const [CurrentIndex, SetCurrentIndex] = useState(0);
     let nbrProjets = data.length;
     let projet = data;
+    //console.log(datas[0].front)
 
     const previousImage = () => {
         // Fonction pour afficher l'image précédente

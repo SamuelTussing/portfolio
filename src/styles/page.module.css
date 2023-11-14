@@ -1104,6 +1104,46 @@
   }
 }
 @media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
   .Competencestitle {
     font-family: "Playfair Display";
     font-weight: 600;
@@ -1128,10 +1168,85 @@
   .Competencestext {
     width: 70%;
     text-align: justify;
+    margin: 0px 15px;
+    margin: 15px 0px;
+    font-size: 14px;
   }
   .CompetencesFront {
     width: 100%;
     color: white;
+  }
+  .CompetencesFrontList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .Vignette {
+    border: solid 1px #ffaa00;
+    margin: 9px;
+    height: 2rem;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .VignetteText {
+    color: white;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Vignette {
+    border: solid 1px #ffaa00;
+    margin: 14px;
+    height: 2rem;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main {
