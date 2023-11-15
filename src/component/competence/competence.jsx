@@ -1,9 +1,16 @@
-import Image from "next/image";
+"use client"
+import React from "react"
 import styles from "@/styles/page.module.scss"
+import competences from "../../data/competences.json"
+import Vignette from "../vignette/vignette"
 
 
 
 const Competence = () =>{
+
+   let front = competences[0].front
+   let divers = competences[0].divers
+ 
     return(
         <div className={styles.PortfolioBGContainer}>
             <div className={styles.PortfolioContainer}>  
@@ -16,9 +23,26 @@ const Competence = () =>{
                     
                     <div className={styles.CompetencesFront}>
                         <h3>Front-End</h3>
+                        <div className={styles.CompetencesFrontList}>
+                           {front.map(item =>(
+                            <Vignette
+                            text={item}
+                            key={item}
+                            />
+                            
+                        ))} 
+                        </div>
                     </div>
                     <div className={styles.CompetencesFront}>
                         <h3>Divers</h3>
+                        <div className={styles.CompetencesFrontList}>
+                           {divers.map(item =>(
+                            <Vignette
+                            text={item}
+                            key={item}
+                            />
+                        ))} 
+                        </div>
                     </div>
                 </div>
                 

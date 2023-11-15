@@ -12,7 +12,7 @@ const Contact = () =>{
         <div className={styles.ContactFormSection}>
             <div className={styles.ContactFormContainer}>
                 <span className={styles.ContactTitle}>Contactez moi ici</span>
-                <form action="mailto:sml.tussing@gmail.com" method="post" enctype="text/plain" className={styles.Form}>
+                <form action="mailto:sml.tussing@gmail.com" method="post" encType="text/plain" className={styles.Form}>
                     <div className={styles.FormMail}>
                         <label htmlFor="frm-email">Email</label>
                         <input

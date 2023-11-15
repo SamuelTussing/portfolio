@@ -468,9 +468,31 @@
   }
 }
 @media screen and (min-width: 320px) {
+  .MainContainer {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+  }
   .imgContainer {
     background-image: url("/mountainbg.avif");
+    animation: slide-right 3s ease-out 1s both;
     width: 100%;
+    height: 300px;
+    opacity: 0;
+  }
+  @keyframes slide-right {
+    20% {
+      transform: translateX(-100vw);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
   }
   .carouselContainer {
     height: 300px;
@@ -481,13 +503,59 @@
     justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.637);
     gap: 10px;
+    position: relative;
+    bottom: 300px;
   }
   .Carouseltitle {
-    font-family: "Playfair Display";
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 900;
+    font-size: 50px;
     color: white;
-    width: 40%;
+    width: 100%;
+    text-align: center;
+    animation: slide-left 3s ease-out 1s both;
+    opacity: 0;
+  }
+  .Carouselsubtitle {
+    font-size: 13px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    animation: slide-left2 3s ease-out 1.2s both;
+    opacity: 0;
+  }
+  @keyframes slide-left {
+    20% {
+      transform: translateX(50vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 0.7;
+    }
+  }
+  @keyframes slide-left2 {
+    20% {
+      transform: translateX(50vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 0.7;
+    }
+  }
+  .carouselarrows {
+    opacity: 0;
+    animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.2s both;
+  }
+  @keyframes slide-bottom {
+    20% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 0.7;
+    }
   }
   .slideshow {
     margin: 0 auto;
@@ -514,12 +582,19 @@
   .carouselContainer {
     height: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
   }
   .titleCtn {
     width: 100%;
+  }
+  .Carouseltitle {
+    font-weight: 900;
+    font-size: 70px;
+  }
+  .Carouselsubtitle {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 320px) {
@@ -717,7 +792,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
   }
   .CarourelContainer {
     display: none;
@@ -849,7 +924,7 @@
     height: 300px;
     width: 300px;
     border: solid 1px black;
-    margin: 50px 0px;
+    margin: 75px 0px;
   }
   .CardContainerImg {
     -o-object-fit: cover;
@@ -879,7 +954,7 @@
     bottom: 100px;
     display: none;
     text-align: left;
-    width: 80%;
+    width: 95%;
   }
   .CardContainerDesc1:focus {
     bottom: 410px;
@@ -887,14 +962,16 @@
   }
   .CardContainerDesc1:focus p {
     display: none;
+    transition: all 2s ease-out;
   }
   .CardContainerDesc1:focus span {
     display: block;
+    bottom: 80px;
+    transition: all 2s ease-out;
   }
-  .CardContainerDesc1:focus a {
-    display: flex;
-    opacity: 1;
-    transition: all 0.8s ease-out;
+  .CardContainerDesc1:focus .CardDescTags1 {
+    bottom: 50px;
+    transition: all 1.5s ease-out;
   }
   .CardDescTitle1 {
     font-family: "Playfair Display";
@@ -1275,6 +1352,52 @@
   }
 }
 @media screen and (min-width: 320px) {
+  .PortfolioBGContainer1 {
+    width: 100%;
+    background-color: black;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
   .Competencestitle {
     font-family: "Playfair Display";
     font-weight: 600;
@@ -1299,10 +1422,19 @@
   .Competencestext {
     width: 70%;
     text-align: justify;
+    margin: 0px 15px;
+    margin: 15px 0px;
+    font-size: 14px;
   }
   .CompetencesFront {
     width: 100%;
     color: white;
+  }
+  .CompetencesFrontList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 0px;
   }
 }
 @media screen and (min-width: 320px) {
@@ -1349,6 +1481,72 @@
   .PortfolioBGContainer1 {
     width: 100%;
     background-color: black;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+  .title2 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+  }
+  .titleXL {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+  }
+}
+@media screen and (min-width: 320px) {
+  .Vignette {
+    border: solid 1px #ffaa00;
+    margin: 9px;
+    height: 2rem;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .VignetteText {
+    color: white;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Vignette {
+    border: solid 1px #ffaa00;
+    margin: 14px;
+    height: 2rem;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .main {

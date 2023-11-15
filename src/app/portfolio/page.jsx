@@ -9,12 +9,13 @@ import ArrowLeft from '../../../public/img/arrow_left.png'
 import ArrowRight from "../../../public/img/arrow_right.png"
 import { useState } from "react";
 import Contact from '@/component/contact/contact'
+import Carousel from '@/component/carousel/carousel'
 
 export default function Portfolio() {
   const [CurrentIndex, SetCurrentIndex] = useState(0);
     let nbrProjets = data.length;
     let projet = data;
-    console.log(projet)
+    //console.log(projet)
 
     const previousImage = () => {
         // Fonction pour afficher l'image précédente
@@ -28,6 +29,7 @@ export default function Portfolio() {
 
   return (
     <main className={styles.main}>
+      <Carousel/>
         <div className={styles.PortfolioBGContainer1}>
             <div className={styles.PortfolioContainer}>
                 <span className={styles.PortfolioSpan}>PORTFOLIO</span>  

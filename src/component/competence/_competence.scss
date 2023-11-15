@@ -28,10 +28,19 @@
     .Competencestext{
         width: 70%;
         text-align: justify;
+        margin: 0px 15px;
+        margin: 15px 0px;
+        font-size: 14px;
     }
     .CompetencesFront{
         width: 100%;
         color: white;
+    }
+    .CompetencesFrontList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px 0px;
     }
 
     
