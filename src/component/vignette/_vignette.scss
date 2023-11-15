@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+
+
+
+@media screen and (min-width: 320px){
+
+    .Vignette{
+        border: solid 1px $color-primary;
+        margin: 9px;
+        height: 2rem;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
+    .VignetteText{
+        color: white;
+        font-size: 14px;
+    }
+
+    
+ }
+
+@media screen and (min-width: 768px){
+    
+    .Vignette{
+        border: solid 1px $color-primary;
+        margin: 14px;
+        height: 2rem;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+ }
