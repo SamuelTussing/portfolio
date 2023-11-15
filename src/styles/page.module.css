@@ -195,7 +195,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: rgba(0, 0, 0, 0.158);
     cursor: pointer;
     transition: 0.5s;
     overflow: hidden;
@@ -469,7 +469,7 @@
 }
 @media screen and (min-width: 320px) {
   .imgContainer {
-    background-image: url("/mountainbg.jpg");
+    background-image: url("/mountainbg.avif");
     width: 100%;
   }
   .carouselContainer {
@@ -663,7 +663,7 @@
 }
 @media screen and (min-width: 320px) {
   .PortfolioBGContainer {
-    background-image: url("/mountainbg.jpg");
+    background-image: url("/mountainbg.avif");
     width: 100%;
   }
   .PortfolioContainer {
@@ -698,6 +698,8 @@
   .CardsContainer {
     display: flex;
     gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
   .DesktopCarContainer {
     display: none;
@@ -1033,7 +1035,7 @@
     margin-top: 15px;
   }
   .ContactBGContainer {
-    background-image: url("/mountainbg.jpg");
+    background-image: url("/mountainbg.avif");
     width: 100%;
   }
   .ContactContainer {

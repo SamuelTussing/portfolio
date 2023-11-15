@@ -40,7 +40,7 @@
 }
 @media screen and (min-width: 320px) {
   .PortfolioBGContainer {
-    background-image: url("/mountainbg.jpg");
+    background-image: url("/mountainbg.avif");
     width: 100%;
   }
   .PortfolioContainer {
@@ -75,6 +75,8 @@
   .CardsContainer {
     display: flex;
     gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
   .DesktopCarContainer {
     display: none;

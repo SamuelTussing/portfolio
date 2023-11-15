@@ -12,7 +12,7 @@ const Contact = () =>{
         <div className={styles.ContactFormSection}>
             <div className={styles.ContactFormContainer}>
                 <span className={styles.ContactTitle}>Contactez moi ici</span>
-                <form className={styles.Form}>
+                <form action="mailto:sml.tussing@gmail.com" method="post" enctype="text/plain" className={styles.Form}>
                     <div className={styles.FormMail}>
                         <label htmlFor="frm-email">Email</label>
                         <input
@@ -29,7 +29,7 @@ const Contact = () =>{
                         <textarea id="frm-message" rows="6" name="message" className={styles.FormField2}></textarea>
                     </div>
                     <div className="button block">
-                    <button type="submit" className={styles.FormButton}>ENVOYER</button>
+                    <button type="submit" value="Send" className={styles.FormButton}>ENVOYER</button>
                     </div>
                 </form>
             </div>

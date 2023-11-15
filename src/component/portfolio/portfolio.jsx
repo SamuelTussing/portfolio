@@ -6,6 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 import ArrowLeft from "../../../public/img/arrow_left.png"
 import ArrowRight from "../../../public/img/arrow_right.png"
+import Button from "../button/button";
 
 
 
@@ -60,7 +61,9 @@ const PortfolioComp = () => {
                         key={item.id}/> 
                         ))}
                     </div>
-                    
+                    <Button
+                lien = "/portfolio"
+                content = "DECOUVRIR LES PROJETS"/>
 
                 </div>
             </div>             

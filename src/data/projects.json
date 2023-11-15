@@ -63,8 +63,8 @@
         "id":"6",
         "title":"ArgentBank",
         "image":"/img/ohmyfood-mockup.png",
-        "text":"Intégration d'une maquette sous React et gestion du State via Redux Toolkit. Ecriture de routes swagger;",
-        "textetendu":"Intégration d'une maquette sous React et récupération des données sur MangoDB via l'API Swagger. Le state de l'application est entièrement géré avec Redux Toolkit. Proposition de route API Rest pour récupérer et modifier certaines données bancaires.",
+        "text":"Intégration d'une maquette sous React et gestion du State via Redux Toolkit. Ecriture de routes swagger.",
+        "textetendu":"Intégration d'une maquette sous React et récupération des données sur MangoDB via l'API Swagger. Le state de l'application est entièrement géré avec Redux Toolkit. Proposition de route API Rest pour récupérer données.",
         "tags": [
             "REACT","REDUX","SWAGGER"
         ],

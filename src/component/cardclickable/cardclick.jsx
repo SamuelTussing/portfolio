@@ -18,10 +18,12 @@ const Cardclick = ({title,text,textetendu,image,lien,github,tags}) =>{
                 <p className={styles.CardDescText1}>{text}</p>
                 <span className={styles.CardDescspan}>{textetendu}</span>
                 <div className={styles.CardDescTags1}>
-                    
-                    <Tag text="SASS"/>
-                    <Tag text="RESPONSIVE"/>
-                    <Tag text="NEXTJS"/>
+                {tags.map(item =>(
+                    <Tag
+                    text = {item}
+                    key={item}
+                    />
+                   ))}
                 </div>
                 <a target="_blank" href={github} className={styles.CardLinkgh} rel="noopener noreferrer">
                     <Image src={logoGH} alt="" width={20} height={20}/>
