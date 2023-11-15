@@ -9,9 +9,9 @@ import styles from "@/styles/page.module.scss"
 //création d'un tableau avec les différent liens cliquables du menu.
 //le tableau sera mappé
 const links = [
-    {id:1, title:"A PROPOS", url:"/"},
-    {id:2, title:"PORTFOLIO", url:"/menu"},
-    {id:4, title:"CONTACT", url:"/"}
+    {id:1, title:"A PROPOS", url:"/apropos"},
+    {id:2, title:"PORTFOLIO", url:"/portfolio"},
+    {id:3, title:"CONTACT", url:"/"}
 ]
 
 const Sidebar = () => {

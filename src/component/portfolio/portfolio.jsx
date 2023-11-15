@@ -7,11 +7,12 @@ import { useState } from "react";
 import Image from "next/image";
 import ArrowLeft from "../../../public/img/arrow_left.png"
 import ArrowRight from "../../../public/img/arrow_right.png"
+import Button from "../button/button";
 
 
 
 
-const Portfolio = () => {
+const PortfolioComp = () => {
 
     const [CurrentIndex, SetCurrentIndex] = useState(0);
     let nbrProjets = data.length;
@@ -62,7 +63,9 @@ const Portfolio = () => {
                         key={item.id}/> 
                         ))}
                     </div>
-                    
+                    <Button
+                lien = "/portfolio"
+                content = "DECOUVRIR LES PROJETS"/>
 
                 </div>
             </div>             
@@ -71,4 +74,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default PortfolioComp

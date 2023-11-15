@@ -1,12 +1,13 @@
 import styles from "@/styles/page.module.scss"
+import Link from "next/link";
 
 
 
-const Button = () =>{
+const Button = ({lien,content}) =>{
     return(
-        <button className={styles.Button}> 
-            <span className={styles.ButtonText}>EN SAVOIR PLUS</span>
-        </button>
+        <Link href={lien} className={styles.Button}> 
+            <span className={styles.ButtonText}>{content}</span>
+        </Link>
         
         
     )
