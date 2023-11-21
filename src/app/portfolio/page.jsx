@@ -26,12 +26,12 @@ export default function Portfolio() {
         // Fonction pour afficher l'image suivante
         SetCurrentIndex((index) => (index === nbrProjets - 1 ? 0 : index + 1));
       };
-
+ 
   return (
     <main className={styles.main}>
       <Carousel/>
         <div className={styles.PortfolioBGContainer1}>
-            <div className={styles.PortfolioContainer}>
+            <div className={styles.PortfolioContainer1}>
                 <span className={styles.PortfolioSpan}>PORTFOLIO</span>  
                 <div className={styles.Portfoliotitlecontainer}>
                     <h2 className={styles.Portfoliotitle}>PORTFOLIO</h2> 
@@ -39,8 +39,8 @@ export default function Portfolio() {
                 <div className={styles.CardsContainer}>
                     
                     <div className={styles.CarourelContainer}>
-                        <div onClick={previousImage}>
-                            {nbrProjets > 1 ? <Image src={ArrowLeft} alt='précédent' /> : ""}
+                        <div  className={styles.CarouselArrow} onClick={previousImage}>
+                            {nbrProjets > 1 ? <Image src={ArrowLeft} width={24} height={40}  alt='précédent' /> : ""}
                         </div>
                         <Cardclick
                         title = {projet[CurrentIndex].title}
@@ -51,8 +51,8 @@ export default function Portfolio() {
                         lien = {projet[CurrentIndex].lien}
                         github = {projet[CurrentIndex].github}
                         key={projet[CurrentIndex].id}/> 
-                        <div onClick={nextImage}>
-                            {nbrProjets > 1 ? <Image src={ArrowRight} alt='précédent' /> : ""}
+                        <div className={styles.CarouselArrow} onClick={nextImage}>
+                            {nbrProjets > 1 ? <Image src={ArrowRight} width={24} height={40}  alt='précédent' /> : ""}
                         </div >
                     </div>
 

@@ -13,7 +13,7 @@ const Competence = () =>{
  
     return(
         <div className={styles.PortfolioBGContainer}>
-            <div className={styles.PortfolioContainer}>  
+            <div className={styles.CompetenceContainer}>  
                 <div className={styles.Competencedesccontainer}>
                     <div className={styles.Competencetitlecontainer}>
                         <h2 className={styles.Competencestitle}>Compétences</h2> 

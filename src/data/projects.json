@@ -14,7 +14,7 @@
     {
         "id":"2",
         "title":"Kasa",
-        "image":"/img/kasa-mockup.png",
+        "image":"/img/kasa-mockup.avif",
         "text":"Création d'une application web responsive de location immobilière avec SASS et React.",
         "textetendu":"Création d'une application web responsive avec SASS sous React. Utilisation d'un fichier .json et d'une fonction fetch pour simuler l'utilisation d'un serveur.",
         "tags": [
@@ -30,7 +30,7 @@
         "text":"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
         "textetendu":"Création d'une application responsive et mise en place d'animations et de transitions CSS. Un loader à été créé ainsi qu'une série d'animations pour les menus.",
         "tags": [
-            "CSS","ANIMATIONS","RESPONSIVE"
+            "ANIMATIONS CSS","RESPONSIVE"
         ],
         "lien":"https://samueltussing.github.io/ohmyfood/",
         "github":"https://github.com/SamuelTussing/ohmyfood"
@@ -64,7 +64,7 @@
         "title":"ArgentBank",
         "image":"/img/ohmyfood-mockup.png",
         "text":"Intégration d'une maquette sous React et gestion du State via Redux Toolkit. Ecriture de routes swagger.",
-        "textetendu":"Intégration d'une maquette sous React et récupération des données sur MangoDB via l'API Swagger. Le state de l'application est entièrement géré avec Redux Toolkit. Proposition de route API Rest pour récupérer données.",
+        "textetendu":"Intégration d'une maquette et récupération des données sur MangoDB via Swagger. Le state est entièrement géré avec Redux Toolkit. Proposition de route API Rest pour récupérer données.",
         "tags": [
             "REACT","REDUX","SWAGGER"
         ],
@@ -76,7 +76,7 @@
         "title":"724Events",
         "image":"/img/ohmyfood-mockup.png",
         "text":"Introduction aux tests unitaires et aux tests fonctionnels. Recherche et correction d'erreurs silencieuses dans l'application.",
-        "textetendu":"Recherche et modifications d'erreurs dans le code javascript de l'application en utilisant des tests unitaires. Proposition d'un test unitaires pour améliorer le fonctionnement du formulaire de contact",
+        "textetendu":"Recherche d'erreurs dans le code javascript de l'application en utilisant des tests unitaires. Proposition d'un test unitaires pour améliorer le fonctionnement du formulaire de contact",
         "tags": [
             "JEST","JS","SASS"
         ],
@@ -88,7 +88,7 @@
         "title":"Nina Carducci",
         "image":"/img/ohmyfood-mockup.png",
         "text":"Optimisation d'un site web de photographe. Compression des images, minification du code et ajout de balises Schema.org",
-        "textetendu":"Optimisation d'une galerie photos. Optimisation et compression des images passées au format .avif, suppression d'une partie inutile du fichier bootstrap, ajout de balises Schema.org et proposition d'une amélioration pour l'accessibilité.",
+        "textetendu":"Optimisation d'une galerie photos et compression des images passées au format .avif, suppression d'une partie inutile du fichier bootstrap et ajout de balises Schema.org.",
         "tags": [
             "SEO","LIGHTHOUSE","WAVE"
         ],

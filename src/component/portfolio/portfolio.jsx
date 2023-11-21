@@ -29,6 +29,8 @@ const PortfolioComp = () => {
         SetCurrentIndex((index) => (index === nbrProjets - 1 ? 0 : index + 1));
       };
 
+     
+
     return( 
         <div className={styles.PortfolioBGContainer}>
             <div className={styles.PortfolioContainer}>
@@ -39,8 +41,8 @@ const PortfolioComp = () => {
                 <div className={styles.CardsContainer}>
                     
                     <div className={styles.CarourelContainer}>
-                        <div onClick={previousImage}>
-                            {nbrProjets > 1 ? <Image src={ArrowLeft} alt='précédent' /> : ""}
+                        <div className={styles.CarouselArrow} onClick={previousImage}>
+                            {nbrProjets > 1 ? <Image src={ArrowLeft} width={24} height={40} alt='précédent' /> : ""}
                         </div>
                         <Card
                         title = {projet[CurrentIndex].title}
@@ -48,8 +50,8 @@ const PortfolioComp = () => {
                         text = {projet[CurrentIndex].text}
                         tags = {projet[CurrentIndex].tags}
                         key={projet[CurrentIndex].id}/> 
-                        <div onClick={nextImage}>
-                            {nbrProjets > 1 ? <Image src={ArrowRight} alt='précédent' /> : ""}
+                        <div className={styles.CarouselArrow} onClick={nextImage}>
+                            {nbrProjets > 1 ? <Image src={ArrowRight} width={24} height={40}  alt='précédent' /> : ""}
                         </div >
                     </div>
 
@@ -63,6 +65,12 @@ const PortfolioComp = () => {
                         key={item.id}/> 
                         ))}
                     </div>
+                    <div className={styles.dotContainer}>
+                        {data.map(item =>(
+                            <div className={styles.dot} key={item.id} id={item.id}></div>
+                        ))}    
+                    </div>
+                    
                     <Button
                 lien = "/portfolio"
                 content = "DECOUVRIR LES PROJETS"/>

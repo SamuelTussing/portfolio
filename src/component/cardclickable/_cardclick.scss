@@ -5,8 +5,8 @@
 @media screen and (min-width: 320px){
 
     .CardContainer1{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 230px;
         border: solid 1px black;
         margin: 75px 0px;
 
@@ -21,7 +21,7 @@
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 80%);
         height: 150%;
         position: relative;
-        bottom: 356px;
+        bottom: 285px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -41,7 +41,7 @@
         width: 95%;
     }
     .CardContainerDesc1:focus{
-        bottom: 410px;
+        bottom: 330px;
         transition: all 0.8s ease-in
     }
     .CardContainerDesc1:focus p{
@@ -87,14 +87,14 @@
         border: solid 1px $color-primary;
         margin: 25px;
         height: 2.5rem;
-        width: 15.5rem;
+        width: 11.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
         background: black;
         cursor: pointer;
         position: relative;
-        bottom: 450px;
+        bottom: 350px;
         color: white;
         
     }
@@ -150,6 +150,36 @@
 
 @media screen and (min-width: 768px){
 
-    
-    
+    .CardContainer1{
+        height: 300px;
+        width: 300px;
+
+    }
+    .CardContainerDesc1{ 
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 80%);
+        bottom: 356px;
+    }
+    .CardContainerDesc1:focus{
+        bottom: 410px;
+        transition: all 0.8s ease-in
+    }
+    .CardContainerDesc1:focus p{
+        display: none;
+        transition: all 2s ease-out
+    }
+    .CardContainerDesc1:focus span{
+        display: block;
+        bottom: 80px;
+        transition: all 2s ease-out
+    }
+    .CardContainerDesc1:focus .CardDescTags1{
+        bottom: 50px;
+        transition: all 1.5s ease-out
+    }
+    .CardLink{
+        width: 15.5rem;
+        bottom: 450px;
+        
+        
+    }
  }

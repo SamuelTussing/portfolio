@@ -11,7 +11,7 @@
     {
         "id":"2",
         "title":"Kasa",
-        "image":"/img/kasa-mockup.png",
+        "image":"/img/kasa-mockup.avif",
         "text":"Création d'une application web de location immobilière.",
         "tags": [
             "SASS","REACT","API"
