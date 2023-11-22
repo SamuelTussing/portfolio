@@ -3,13 +3,12 @@ import styles from '../../styles/page.module.scss'
 import Footer from '../../component/footer/footer'
 import Photo from "../../../public/img/portrait.jpg"
 import Competence from '@/component/competence/competence'
-import datas from "../../data/data.json"
 import Contact from '@/component/contact/contact'
 import Carousel from '@/component/carousel/carousel'
 
 
 export default function APropos() {
-    console.log(datas[0].front)
+
   return (
     <main className={styles.main}>
         <Carousel/>
