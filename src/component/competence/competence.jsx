@@ -12,7 +12,7 @@ const Competence = () =>{
    let divers = competences[0].divers
  
     return(
-        <div className={styles.PortfolioBGContainer}>
+        <div >
             <div className={styles.CompetenceContainer}>  
                 <div className={styles.Competencedesccontainer}>
                     <div className={styles.Competencetitlecontainer}>
