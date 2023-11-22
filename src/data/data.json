@@ -20,7 +20,7 @@
     {
         "id":"3",
         "title":"Ohmyfood",
-        "image":"/img/ohmyfood-mockup.png",
+        "image":"/img/ohmyfood-mockup.avif",
         "text":"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
         "tags": [
             "CSS","ANIMATIONS","RESPONSIVE"

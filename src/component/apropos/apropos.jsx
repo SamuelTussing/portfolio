@@ -11,7 +11,9 @@ const Apropos = () =>{
             <Image src={Photo} alt="" className={styles.APImg} width={200} height={300}/>
             <div className={styles.APDescContainer}>
                 <h2 className={styles.APTitle}>Integrateur web et pas que</h2>
-                <p className={styles.APText}>Graphiste de formation avec 4 ans d&apos;expérience dans le monde du print j&apos;ai décidé d&apos;acquérir de nouvelles compétences en tant qu&apos;intégrateur frontend. Possédant la double casquette graphiste-développeur web, je suis à même de créer des site web  visuellement attrayant sans négliger l&apos;aspect technique et le développement de l&apos;application. </p>
+                <p className={styles.APText}>Graphiste de formation avec une expérience de quatre années dans le domaine de l&apos;impression, j&apos;ai délibérément élargi mes compétences en me spécialisant en tant qu&apos;intégrateur frontend. En fusionnant les rôles de graphiste et de développeur web, je suis en mesure de concevoir des sites web à la fois esthétiquement attrayants et techniquement performants. Ma polyvalence me permet d&apos;appréhender le processus de développement d&apos;applications de manière holistique, en accordant une attention équilibrée à l&apos;aspect visuel et aux aspects techniques. </p>
+                <p className={styles.APText}>Mon parcours professionnel reflète ma passion pour l&apos;innovation et mon engagement à rester constamment à la pointe des nouvelles tendances dans le domaine du design et du développement web. </p>
+
                 <Button
                 lien = "/apropos"
                 content = "EN SAVOIR PLUS"/>  

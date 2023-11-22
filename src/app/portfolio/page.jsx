@@ -26,6 +26,9 @@ export default function Portfolio() {
         // Fonction pour afficher l'image suivante
         SetCurrentIndex((index) => (index === nbrProjets - 1 ? 0 : index + 1));
       };
+
+      const handleBulletClick = (index) => {
+        SetCurrentIndex(index);}
  
   return (
     <main className={styles.main}>
@@ -67,10 +70,19 @@ export default function Portfolio() {
                         lien={item.lien}
                         github={item.github}
                         key={item.id}/>
-                         
                         ))}
                     </div>
-                    
+                    <div className={styles.dotContainer1}>
+                        {data.map((_,index) =>(
+                            <div
+                            onClick={() => handleBulletClick(index)}
+                            className={`${styles.bullet} ${index === CurrentIndex ? styles.selected : styles.bullet }`}
+                            key={index}
+                            >
+
+                            </div>
+                        ))}    
+                    </div>
 
                 </div>
             </div>             

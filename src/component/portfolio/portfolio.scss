@@ -66,15 +66,15 @@
         display: flex;
         gap: 5px;
     }
-    .dot{
+    .bullet{
         border: 3px solid $color-primary;
         height: 20px;
         width: 20px;
         border-radius: 10px;
         cursor: pointer;
     }
-    .dotselected{
-        border: 6px solid $color-primary;
+    .selected{
+        border: 10px solid $color-primary;
         height: 20px;
         width: 20px;
         border-radius: 10px;

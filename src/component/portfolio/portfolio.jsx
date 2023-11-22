@@ -29,6 +29,9 @@ const PortfolioComp = () => {
         SetCurrentIndex((index) => (index === nbrProjets - 1 ? 0 : index + 1));
       };
 
+      const handleBulletClick = (index) => {
+        SetCurrentIndex(index);}
+
      
 
     return( 
@@ -66,8 +69,14 @@ const PortfolioComp = () => {
                         ))}
                     </div>
                     <div className={styles.dotContainer}>
-                        {data.map(item =>(
-                            <div className={styles.dot} key={item.id} id={item.id}></div>
+                        {data.map((_,index) =>(
+                            <div
+                            onClick={() => handleBulletClick(index)}
+                            className={`${styles.bullet} ${index === CurrentIndex ? styles.selected : styles.bullet }`}
+                            key={index}
+                            >
+
+                            </div>
                         ))}    
                     </div>
                     
