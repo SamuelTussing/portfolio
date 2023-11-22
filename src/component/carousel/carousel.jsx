@@ -19,6 +19,13 @@ const Carousel = () =>{
             <div className={styles.titleCtn}>
                 <p className={styles.Carouseltitle} >Je suis Samuel Tussing</p>
                 <p className={styles.Carouselsubtitle} >intégrateur web junior et infographiste confirmé</p>
+                <a
+                    className={styles.ButtonDownload}
+                    href="/TUSSING_Samuel_developpeur_web_junior.pdf"
+                    alt="alt text"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Télécharger mon cv</a>
             </div>
             
                 

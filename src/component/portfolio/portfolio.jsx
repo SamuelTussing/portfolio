@@ -23,7 +23,7 @@ const PortfolioComp = () => {
         // Fonction pour afficher l'image précédente
         SetCurrentIndex((index) => (index === 0 ? nbrProjets - 1 : index - 1));
       };
-    
+     
       const nextImage = () => {
         // Fonction pour afficher l'image suivante
         SetCurrentIndex((index) => (index === nbrProjets - 1 ? 0 : index + 1));

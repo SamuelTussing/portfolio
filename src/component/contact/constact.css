@@ -11,6 +11,13 @@
     font-size: 20px;
     color: white;
   }
+  .title3 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
   .titleXL {
     font-family: "Playfair Display";
     font-weight: 600;
@@ -43,7 +50,7 @@
     width: 100%;
   }
   .ContactFormContainer {
-    background-color: black;
+    background-color: #131414;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +67,6 @@
     margin-top: 15px;
   }
   .ContactBGContainer {
-    background-image: url("/mountainbg.avif");
     width: 100%;
   }
   .ContactContainer {
@@ -68,7 +74,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: #131414;
     padding: 25px;
   }
   .Form {
@@ -91,7 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: #131414;
     color: white;
     padding: 10px;
   }
@@ -103,18 +109,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: #131414;
     color: white;
     padding: 10px;
   }
   .FormButton {
-    border: solid 1px #ffaa00;
+    border: solid 1px #C0A062;
     height: 3rem;
     width: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: #131414;
     cursor: pointer;
     transition: 0.5s;
     overflow: hidden;

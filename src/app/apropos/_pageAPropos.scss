@@ -19,6 +19,13 @@
         margin: 25px;
         object-fit: cover;
     }
+    .PageAPImg2{
+        height: 200px;
+        width: 200px;
+        border-radius: 0 15px 0 15px;
+        margin: 25px;
+        object-fit: cover;
+    }
     .PageAPDescContainer{
         display: flex;
         flex-direction: column;
@@ -74,6 +81,7 @@
         background-color: black;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -85,12 +93,56 @@
         display: block;
     }
     .PageAPCol1{
-        width: 40%;
+        width: 50%;
     }
     .PageAPCol2{
-        width: 40%;
+        width: 50%;
         position: relative;
         bottom: 89px;
+    }
+    .PageAPImg{
+        height: 250px;
+        width: 250px;
+    }
+    .PageAPImg2{
+        height: 250px;
+        width: 250px;
+    }
+    
+ }
+
+ @media screen and (min-width: 1024px){
+
+    .PageAPContainer{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .PageAPTitle{
+        display: none;
+    }
+    .PageAPImghidden{
+        display: block;
+    }
+    .PageAPCol1{
+        width: 50%;
+    }
+    .PageAPCol2{
+        width: 50%;
+        position: relative;
+        bottom: 89px;
+    }
+    .PageAPImg{
+        height: 400px;
+        width: 400px;
+    }
+    .PageAPImg2{
+        height: 250px;
+        width: 350px;
     }
     
  }

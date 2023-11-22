@@ -11,6 +11,13 @@
     font-size: 20px;
     color: white;
   }
+  .title3 {
+    font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
   .titleXL {
     font-family: "Playfair Display";
     font-weight: 600;
@@ -40,8 +47,8 @@
 }
 @media screen and (min-width: 320px) {
   .PortfolioBGContainer {
-    background-image: url("/mountainbg.avif");
     width: 100%;
+    height: 110vh;
   }
   .PortfolioContainer {
     padding: 1rem;
@@ -49,8 +56,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: #000000;
     gap: 10px;
+    height: 50vh;
   }
   .Portfoliotitle {
     font-family: "Playfair Display";
@@ -61,7 +69,7 @@
   .PortfolioSpan {
     font-family: "Playfair Display";
     font-weight: 600;
-    font-size: 55px;
+    font-size: 45px;
     color: white;
     opacity: 0.3;
     align-self: center;
@@ -70,7 +78,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 51px;
+    bottom: 48px;
   }
   .CardsContainer {
     display: flex;
@@ -87,6 +95,109 @@
     justify-content: center;
     gap: 10px;
   }
+  .CarouselArrow {
+    cursor: pointer;
+    opacity: 0.4;
+    width: 24px;
+    height: 40px;
+  }
+  .CarouselArrow:hover {
+    opacity: 1;
+  }
+  .dotContainer {
+    display: flex;
+    gap: 5px;
+  }
+  .bullet {
+    border: 3px solid #C0A062;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .selected {
+    border: 10px solid #C0A062;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .PortfolioBGContainer {
+    width: 100%;
+    height: 95vh;
+  }
+  .PortfolioContainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    gap: 10px;
+    height: 55vh;
+  }
+  .Portfoliotitle {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+  }
+  .PortfolioSpan {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    opacity: 0.3;
+    align-self: center;
+  }
+  .Portfoliotitlecontainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 48px;
+  }
+  .CardsContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .DesktopCarContainer {
+    display: none;
+  }
+  .CarourelContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .CarouselArrow {
+    cursor: pointer;
+    opacity: 0.4;
+    width: 48px;
+    height: 80px;
+  }
+  .CarouselArrow:hover {
+    opacity: 1;
+  }
+  .dotContainer {
+    display: flex;
+    gap: 5px;
+  }
+  .dot {
+    border: 3px solid #C0A062;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .dotselected {
+    border: 6px solid #C0A062;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
 }
 @media screen and (min-width: 768px) {
   .DesktopCarContainer {
@@ -101,5 +212,15 @@
   }
   .PortfolioContainer {
     padding: 3rem;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .PortfolioBGContainer {
+    width: 100%;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .dotContainer {
+    display: none;
   }
 }/*# sourceMappingURL=portfolio.css.map */
