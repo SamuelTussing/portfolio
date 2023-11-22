@@ -4,6 +4,16 @@
 
 @media screen and (min-width: 320px){
 
+    .CompetenceContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #0c0c0c;
+        gap: 10px;
+        height: 65vh;
+        padding: 3rem;
+    }
     .Competencestitle{
         font-family: "Playfair Display";
         font-weight: 600;

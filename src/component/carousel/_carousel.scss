@@ -4,12 +4,40 @@
 
 @media screen and (min-width: 320px){
 
-    .imgContainer{
-        background-image: url('/mountainbg.avif');
+    .MainContainer{
+        background-color: black;
+        min-height: 500px;
         width: 100%;
     }
+    
+    .imgContainer{
+        background-image: url('/mountainbg.avif');
+        background-size: cover;
+        animation: slide-right 3s ease-out .1s both;
+        width: 100%;
+        min-height: 500px;
+        opacity: 0;
+    }
+
+    @keyframes slide-right {
+        20% {
+          transform: translateX(-100vw);
+          opacity: 0;
+        }
+        50% {
+          transform: translateX(0px);
+          opacity: 1;
+        }
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+          }
+      }
+
+      
+
     .carouselContainer{
-        height: 300px;
+        height: 500px;
         padding: 3rem;
         display: flex;
         flex-direction: row;
@@ -17,15 +45,60 @@
         justify-content: space-evenly;
         background-color: rgba(0, 0, 0, 0.637);
         gap: 10px;
-    }
-    .Carouseltitle{
-        font-family: "Playfair Display";
-        font-weight: 500;
-        font-size: 30px;
-        color: white;
-        width: 40%;
+        position: relative;
+        bottom: 0px;
     }
     
+    .Carouseltitle{
+        
+      font-family: Playfair Display;
+        font-weight: 700;
+        font-size: 50px;
+        color: $color-primary;
+        width: 100%;
+        text-align: center;
+        animation: slide-left 3s ease-out 1s  both;
+        opacity: 0;
+    }
+    .Carouselsubtitle{
+        font-size: 15px;
+        color: white;
+        width: 100%;
+        text-align: center;
+        animation: slide-left2 3s ease-out 1.2s both;
+        opacity: 0;
+        line-height: 1.5;
+        margin-top: 10px;
+      }
+
+      
+
+
+    @keyframes slide-left {
+        20% {
+          transform: translateX(50vw);
+          opacity: 0;
+        }
+        100% {
+            transform: translateX(0px);
+            opacity: 0.9;
+          }
+
+          }
+      
+      @keyframes slide-left2 {
+        20% {
+          transform: translateX(50vw);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0px);
+          opacity: 0.9;
+        }
+      }
+
+    
+      
 
     .slideshow {
         margin: 0 auto;
@@ -51,18 +124,40 @@
       }
  }
 
+ 
+
 @media screen and (min-width: 768px){
 
+  .MainContainer{
+    min-height: 500px;
+}
+
+.imgContainer{
+    min-height: 500px;
+    background-size: cover;
+}
 
     .carouselContainer{
-        height: 300px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        height: 500px;
     }
     .titleCtn{
         width: 100%;
     }
     
+    .Carouseltitle{
+        
+        font-weight: 900;
+        font-size: 70px;
+       
+        
+    }
+    .Carouselsubtitle{
+        font-size: 15px;
+        
+        
+      }
  }

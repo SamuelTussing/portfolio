@@ -7,7 +7,6 @@ import Tag from "../tag/tag"
 
 const Card = ({title,text,image,tags}) =>{
  
-console.log(tags)
     return(
         <div className={styles.CardContainer}>
             <Image src={image} alt="bakerymockup" className={styles.CardContainerImg} width={300} height={300}/>

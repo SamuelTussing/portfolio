@@ -1,13 +1,14 @@
 "use client"
 
 import React, {useState} from "react";
-import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/page.module.scss"
 import Sidebar from "../sidebar/sidebar";
 
 const Header = () =>{
     return(
+        <div className={styles.Containerheader}>
+
         <div className={styles.header}>
             <Link className={styles.title} href="/">TSAMUEL</Link>
             {/* lien a droite visibles sur desktop */}
@@ -21,6 +22,7 @@ const Header = () =>{
             </div>
             
             
+        </div>
         </div>
     )
 }

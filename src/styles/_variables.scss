@@ -1,4 +1,5 @@
-$color-primary: #ffaa00;
+$color-primary: #C0A062;
+$color-secondary : #ffaa00;
 
 
 @media screen and (min-width: 320px){
@@ -16,6 +17,13 @@ $color-primary: #ffaa00;
         font-size: 20px;
         color: white;
         }
+        .title3{
+            font-family: "Playfair Display";
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            }
     .titleXL{
         font-family: "Playfair Display";
         font-weight: 600;

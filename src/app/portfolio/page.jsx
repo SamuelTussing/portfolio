@@ -9,12 +9,13 @@ import ArrowLeft from '../../../public/img/arrow_left.png'
 import ArrowRight from "../../../public/img/arrow_right.png"
 import { useState } from "react";
 import Contact from '@/component/contact/contact'
+import Carousel from '@/component/carousel/carousel'
 
 export default function Portfolio() {
   const [CurrentIndex, SetCurrentIndex] = useState(0);
     let nbrProjets = data.length;
     let projet = data;
-    console.log(projet)
+    //console.log(projet)
 
     const previousImage = () => {
         // Fonction pour afficher l'image précédente
@@ -26,10 +27,14 @@ export default function Portfolio() {
         SetCurrentIndex((index) => (index === nbrProjets - 1 ? 0 : index + 1));
       };
 
+      const handleBulletClick = (index) => {
+        SetCurrentIndex(index);}
+ 
   return (
     <main className={styles.main}>
+      <Carousel/>
         <div className={styles.PortfolioBGContainer1}>
-            <div className={styles.PortfolioContainer}>
+            <div className={styles.PortfolioContainer1}>
                 <span className={styles.PortfolioSpan}>PORTFOLIO</span>  
                 <div className={styles.Portfoliotitlecontainer}>
                     <h2 className={styles.Portfoliotitle}>PORTFOLIO</h2> 
@@ -37,8 +42,8 @@ export default function Portfolio() {
                 <div className={styles.CardsContainer}>
                     
                     <div className={styles.CarourelContainer}>
-                        <div onClick={previousImage}>
-                            {nbrProjets > 1 ? <Image src={ArrowLeft} alt='précédent' /> : ""}
+                        <div  className={styles.CarouselArrow} onClick={previousImage}>
+                            {nbrProjets > 1 ? <Image src={ArrowLeft} width={24} height={40}  alt='précédent' /> : ""}
                         </div>
                         <Cardclick
                         title = {projet[CurrentIndex].title}
@@ -49,8 +54,8 @@ export default function Portfolio() {
                         lien = {projet[CurrentIndex].lien}
                         github = {projet[CurrentIndex].github}
                         key={projet[CurrentIndex].id}/> 
-                        <div onClick={nextImage}>
-                            {nbrProjets > 1 ? <Image src={ArrowRight} alt='précédent' /> : ""}
+                        <div className={styles.CarouselArrow} onClick={nextImage}>
+                            {nbrProjets > 1 ? <Image src={ArrowRight} width={24} height={40}  alt='précédent' /> : ""}
                         </div >
                     </div>
 
@@ -65,10 +70,19 @@ export default function Portfolio() {
                         lien={item.lien}
                         github={item.github}
                         key={item.id}/>
-                         
                         ))}
                     </div>
-                    
+                    <div className={styles.dotContainer1}>
+                        {data.map((_,index) =>(
+                            <div
+                            onClick={() => handleBulletClick(index)}
+                            className={`${styles.bullet} ${index === CurrentIndex ? styles.selected : styles.bullet }`}
+                            key={index}
+                            >
+
+                            </div>
+                        ))}    
+                    </div>
 
                 </div>
             </div>             

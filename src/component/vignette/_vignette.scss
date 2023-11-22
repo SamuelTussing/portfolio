@@ -6,9 +6,9 @@
 
     .Vignette{
         border: solid 1px $color-primary;
-        margin: 9px;
+        margin: 2px;
         height: 2rem;
-        width: 20%;
+        width: 31%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -18,7 +18,7 @@
     
     .VignetteText{
         color: white;
-        font-size: 14px;
+        font-size: 11px;
     }
 
     
@@ -35,6 +35,10 @@
         align-items: center;
         justify-content: center;
 
+    }
+    .VignetteText{
+        color: white;
+        font-size: 14px;
     }
     
  }

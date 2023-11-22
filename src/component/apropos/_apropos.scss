@@ -5,7 +5,7 @@
 @media screen and (min-width: 320px){
 
     .APContainer{
-        background-color: black;
+        background-color: #181818;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -17,7 +17,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
+        margin-bottom: 30px;
     }
     .APImg{
         height: 200px;
@@ -31,6 +32,7 @@
         font-weight: 500;
         font-size: 30px;
         color: white;
+        text-align: center;
     }
     .APText{
         color: white;
@@ -57,7 +59,7 @@
         padding: 25px;
     }
     .APImg{
-        height: 330px;
+        height: 460px;
         width: 330px;
     }
     .APDescContainer{
