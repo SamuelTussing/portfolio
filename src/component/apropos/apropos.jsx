@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "@/styles/page.module.scss"
-import Photo from "../../../public/img/portrait.jpg"
+import Photo from "../../../public/img/portrait2-min.png"
 import Button from "../button/button";
 
 
