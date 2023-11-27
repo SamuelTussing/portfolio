@@ -755,7 +755,7 @@
 }
 @media screen and (min-width: 320px) {
   .APContainer {
-    background-color: #181818;
+    background-color: #212121;
     display: flex;
     flex-direction: column;
     justify-content: center;

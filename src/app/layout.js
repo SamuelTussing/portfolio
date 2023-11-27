@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <body className={poppins.className}>
         <Header/>
+        <Carousel/>
         {children}
         
         </body>

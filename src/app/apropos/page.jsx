@@ -12,31 +12,25 @@ export default function APropos() {
 
   return (
     <main className={styles.main}>
-        <Carousel/>
         <div className={styles.PageAPContainer}>
             <div className={styles.PageAPCol1}>
                 <Image src={Photo} alt="" className={styles.PageAPImg} width={200} height={300}/>
                 <div className={styles.PageAPDescContainer}>
                     <h2 className={styles.PageAPTitle}>TUSSING SAMUEL</h2>
-                    <p className={styles.PageAPText}>Je m&apos;appelle Samuel, graphiste de formation et actuellement intégrateur web junior. Fort d&apos;une licence en Arts Appliqués et Designs, j&apos;ai débuté ma carrière en tant qu&apos;infographiste spécialisé dans le domaine de l&apos;impression. Mon parcours professionnel s&apos;est ensuite orienté naturellement vers l&apos;univers du web. Grâce à ma double compétence en tant que graphiste et intégrateur web, je suis en mesure d&apos;appréhender de manière optimale la conception des applications web, garantissant ainsi une amélioration significative de leur qualité et un développement fluide. Mon engagement envers l&apos;excellence dans le design et le développement web reflète ma passion pour l&apos;innovation et ma volonté constante de rester à la pointe des dernières tendances. </p>
+                    <p className={styles.PageAPText}>Je suis Samuel, graphiste de formation et intégrateur web junior, titulaire d&apos;une licence en Arts Appliqués et Designs. Ayant débuté ma carrière en tant qu&apos;infographiste spécialisé dans l&apos;impression, mon parcours s&apos;est naturellement orienté vers le domaine du web. Avec ma double compétence de graphiste et intégrateur web, j&apos;optimise la conception des applications web, assurant une amélioration significative de leur qualité et un développement fluide. Mon engagement envers l&apos;excellence dans le design et le développement web témoigne de ma passion pour l&apos;innovation, reflétant ma volonté constante de rester à la pointe des dernières tendances. </p>
                     
                 </div>
             </div> 
             <div className={styles.PageAPCol2}>
                 <Image src={Photo2} alt="" className={styles.PageAPImg2} width={200} height={300}/>
                 <div className={styles.PageAPDescContainer}>
-                    <p className={styles.PageAPText}>Avant d&apos;entamer ma carrière dans le développement front-end, j&apos;ai acquis une solide expérience en tant que graphiste au sein de diverses entreprises, notamment dans le secteur de l&apos;impression grand format, de l&apos;horlogerie, et d&apos;une boutique de jeux. Ma connaissance approfondie des cahiers des charges spécifiques aux imprimeurs témoigne de ma maîtrise des exigences techniques et esthétiques propres à ce domaine.
-                    <br></br>
-                    <br></br>
-                    Au cours de mes expériences professionnelles, j&apos;ai eu l&apos;opportunité de collaborer sur des projets de sites web sous la plateforme PrestaShop. Mon apprentissage, supervisé par un webmaster expérimenté, m&apos;a permis d&apos;acquérir et d&apos;appliquer les fondements du référencement web. Cette compétence stratégique s&apos;est avérée essentielle dans la conception de sites efficaces et visibles, démontrant ainsi ma capacité à intégrer des principes fondamentaux du marketing en ligne dans mon approche de travail. Je suis maintenant animé par la volonté de fusionner ces compétences diversifiées pour contribuer de manière significative au succès de projets web innovants et performants.</p>
-                    <p className={styles.PageAPText}>Par la suite, j&apos;ai renforcé mes connaissances et compétences en entreprenant une formation approfondie en tant qu&apos;Intégrateur Web dispensée par Openclassrooms sur une période de 9 mois. Ce programme exhaustif m&apos;a permis d&apos;acquérir une maîtrise des fondements du développement web, notamment en matière de langages tels que HTML, CSS, et SASS.</p> 
+                    <p className={styles.PageAPText}>
+                        Durant mes collaborations sur des projets PrestaShop, supervisées par un webmaster expérimenté, j&apos;ai acquis les fondements du référencement web. Cette compétence stratégique s&apos;est révélée cruciale dans la conception de sites visibles et efficaces, illustrant ma capacité à intégrer les principes du marketing en ligne dans mon approche. Animé par le désir de fusionner ces compétences diversifiées, j&apos;ai renforcé mes connaissances en entreprenant une formation intensive d&apos;Intégrateur Web sur neuf mois avec Openclassrooms, maîtrisant ainsi divers langages et technologies.</p>
                 </div>
             </div>
-            <p className={styles.APText}>Bien que la formation ait été couronnée de succès, je suis conscient que mes compétences et connaissances demeurent &quot;limitées&quot; à la phase de développement junior. Je tiens à souligner humblement que je ne revendique pas une maîtrise parfaite d&apos;un langage de programmation ou d&apos;un framework spécifique à ce stade de ma carrière. Mon statut d&apos;intégrateur web junior traduit ma volonté de continuer à apprendre et à évoluer.
-                        <br></br>
-                        <br></br>
-                    Dans cette optique, je n&apos;envisage pas actuellement de travailler en freelance. Au contraire, je suis à la recherche d&apos;une équipe dynamique au sein de laquelle je pourrais consolider mes compétences et approfondir mes connaissances. Mon objectif est de contribuer de manière significative à des projets stimulants tout en bénéficiant d&apos;un environnement propice à l&apos;apprentissage continu.</p> 
-                
+            <p className={styles.APText}>
+            Malgré le succès de ma formation, je reconnais que mes compétences restent limitées à la phase junior du développement. Je souhaite souligner humblement que je n&apos;affirme pas une maîtrise parfaite à ce stade de ma carrière. En tant qu&apos;intégrateur web junior, je demeure ouvert à l&apos;apprentissage continu. Actuellement, je n&apos;envisage pas le travail en freelance, mais je recherche une équipe dynamique où je pourrais renforcer mes compétences, approfondir mes connaissances, et contribuer de manière significative à des projets stimulants.
+            </p>
         </div>
         
         <Competence/>

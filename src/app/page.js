@@ -9,7 +9,6 @@ import Carousel from '@/component/carousel/carousel'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Carousel/>
       <Apropos/>
       <PortfolioComp/>
       <Contact/>
