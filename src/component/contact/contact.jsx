@@ -37,13 +37,11 @@ const Contact = () =>{
                 <div className={styles.ContactContainer}>
                     <span className={styles.ContactTitle}>ou là</span>
                     <div className={styles.linkscontainer}>
-                        <Link href=''>
-                            <Image src="/img/facebook-logo.png" alt="logo facebook" width={50} height={50}/>
-                        </Link>
-                        <Link href=''>
+                        
+                        <Link href='https://github.com/SamuelTussing'>
                             <Image src="/img/github-logo.png" alt="logo facebook" width={50} height={50}/>
                         </Link>
-                        <Link href=''>
+                        <Link href='https://fr.linkedin.com/in/samuel-tussing-a4a178b4'>
                             <Image src="/img/linkedin-logo.png" alt="logo facebook" width={50} height={50}/>
                         </Link>
                         

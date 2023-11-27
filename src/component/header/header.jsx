@@ -13,7 +13,6 @@ const Header = () =>{
             <Link className={styles.title} href="/">TSAMUEL</Link>
             {/* lien a droite visibles sur desktop */}
             <div className={styles.header_links}>
-                <Link className={styles.subtitle} href="/">ACCUEIL</Link>
                 <Link className={styles.subtitle} href="/apropos">A PROPOS</Link>
                 <Link className={styles.subtitle} href="/portfolio">PORTFOLIO</Link>
                 
