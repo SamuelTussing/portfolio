@@ -37,7 +37,7 @@ const PortfolioComp = () => {
     return( 
         <div className={styles.PortfolioBGContainer}>
             <div className={styles.PortfolioContainer}>
-                <span className={styles.PortfolioSpan}>PORTFOLIO</span>  
+
                 <div className={styles.Portfoliotitlecontainer}>
                     <h2 className={styles.Portfoliotitle}>PORTFOLIO</h2> 
                 </div>

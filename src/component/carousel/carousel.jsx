@@ -2,11 +2,6 @@
 
 import styles from "@/styles/page.module.scss"
 
-
-
-
-
-
 const Carousel = () =>{
 
     
@@ -17,8 +12,8 @@ const Carousel = () =>{
         <div className={styles.carouselContainer}>
             
             <div className={styles.titleCtn}>
-                <p className={styles.Carouseltitle} >Je suis Samuel Tussing</p>
-                <p className={styles.Carouselsubtitle} >intégrateur web junior et infographiste confirmé</p>
+                <p className={styles.Carouseltitle} >Samuel Tussing</p>
+                <p className={styles.Carouselsubtitle} >Intégrateur web junior et infographiste confirmé</p>
                 <a
                     className={styles.ButtonDownload}
                     href="/TUSSING_Samuel_developpeur_web_junior.pdf"
@@ -26,6 +21,12 @@ const Carousel = () =>{
                     target="_blank"
                     rel="noopener noreferrer"
                     >Télécharger mon cv</a>
+
+                <a
+                    className={styles.ButtonDownload}
+                    href="#contact">
+                        Me contacter
+                </a>
             </div>
             
                 

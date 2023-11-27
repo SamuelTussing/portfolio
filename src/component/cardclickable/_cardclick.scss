@@ -42,20 +42,20 @@
     }
     .CardContainerDesc1:focus{
         bottom: 330px;
-        transition: all 0.8s ease-in
+        transition: all 0.5s ease-in
     }
     .CardContainerDesc1:focus p{
         display: none;
-        transition: all 2s ease-out
+        transition: all .5s ease-out
     }
     .CardContainerDesc1:focus span{
         display: block;
         bottom: 80px;
-        transition: all 2s ease-out
+        transition: all .5s ease-out
     }
     .CardContainerDesc1:focus .CardDescTags1{
         bottom: 50px;
-        transition: all 1.5s ease-out
+        transition: all .7s ease-out
     }
     
 

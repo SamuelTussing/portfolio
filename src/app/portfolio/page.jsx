@@ -32,10 +32,9 @@ export default function Portfolio() {
  
   return (
     <main className={styles.main}>
-      <Carousel/>
         <div className={styles.PortfolioBGContainer1}>
             <div className={styles.PortfolioContainer1}>
-                <span className={styles.PortfolioSpan}>PORTFOLIO</span>  
+
                 <div className={styles.Portfoliotitlecontainer}>
                     <h2 className={styles.Portfoliotitle}>PORTFOLIO</h2> 
                 </div>

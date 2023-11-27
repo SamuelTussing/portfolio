@@ -30,7 +30,7 @@
         "text":"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
         "textetendu":"Création d'une application responsive et mise en place d'animations et de transitions CSS. Un loader à été créé ainsi qu'une série d'animations pour les menus.",
         "tags": [
-            "ANIMATIONS CSS","RESPONSIVE"
+            "ANIMATIONS","RESPONSIVE"
         ],
         "lien":"https://samueltussing.github.io/ohmyfood/",
         "github":"https://github.com/SamuelTussing/ohmyfood"
@@ -42,7 +42,7 @@
         "text":"Réalisation du site en respectant la note de synthèse pour l'intégration. Création du site en desktop first.",
         "textetendu":"Réalisation d'un site web en desktop first en suivant la maquette fournie par le graphiste et en respectant les breaking points. Le site passe au validateur W3C. ",
         "tags": [
-            "CSS","W3C","RESPONSIVE"
+            "W3C","RESPONSIVE"
         ],
         "lien":"https://samueltussing.github.io/Booki/",
         "github":"https://github.com/SamuelTussing/Booki"

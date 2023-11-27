@@ -57,7 +57,7 @@
         color: $color-primary;
         width: 100%;
         text-align: center;
-        animation: slide-left 3s ease-out 1s  both;
+        animation: slide-left 1s ease-out 1s  both;
         opacity: 0;
     }
     .Carouselsubtitle{
@@ -65,7 +65,7 @@
         color: white;
         width: 100%;
         text-align: center;
-        animation: slide-left2 3s ease-out 1.2s both;
+        animation: slide-left2 1s ease-out 1.2s both;
         opacity: 0;
         line-height: 1.5;
         margin-top: 10px;
@@ -99,7 +99,7 @@
 
       .ButtonDownload{
         border: solid 1px $color-primary;
-        margin: 25px;
+        margin: 20px 0 7px 0;
         height: 3rem;
         width: 15rem;
         display: flex;
