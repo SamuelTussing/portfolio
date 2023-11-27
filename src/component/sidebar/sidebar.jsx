@@ -11,7 +11,6 @@ import styles from "@/styles/page.module.scss"
 const links = [
     {id:1, title:"A PROPOS", url:"/apropos"},
     {id:2, title:"PORTFOLIO", url:"/portfolio"},
-    {id:3, title:"CONTACT", url:"/"}
 ]
 
 const Sidebar = () => {
