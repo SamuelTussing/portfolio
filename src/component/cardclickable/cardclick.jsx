@@ -14,17 +14,17 @@ const Cardclick = ({title,text,textetendu,image,lien,github,tags}) =>{
         <div className={styles.CardContainer1}>
             <Image src={image} alt="bakerymockup" className={styles.CardContainerImg} width={300} height={300}/>
             <button className={styles.CardContainerDesc1}>
-                <h3 className={styles.CardDescTitle1}>{title}</h3>
-                <p className={styles.CardDescText1}>{text}</p>
+                <span className={styles.CardDescTitle1}>{title}</span>
+                <span className={styles.CardDescText1}>{text}</span>
                 <span className={styles.CardDescspan}>{textetendu}</span>
-                <div className={styles.CardDescTags1}>
+                <span className={styles.CardDescTags1}>
                 {tags.map(item =>(
                     <Tag
                     text = {item}
                     key={item}
                     />
                    ))}
-                </div>
+                </span>
 
                 
             
