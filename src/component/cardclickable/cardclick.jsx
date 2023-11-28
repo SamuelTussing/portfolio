@@ -17,14 +17,14 @@ const Cardclick = ({title,text,textetendu,image,lien,github,tags}) =>{
                 <span className={styles.CardDescTitle1}>{title}</span>
                 <span className={styles.CardDescText1}>{text}</span>
                 <span className={styles.CardDescspan}>{textetendu}</span>
-                <span className={styles.CardDescTags1}>
+                <div className={styles.CardDescTags1}>
                 {tags.map(item =>(
                     <Tag
                     text = {item}
                     key={item}
                     />
                    ))}
-                </span>
+                </div>
 
                 
             
