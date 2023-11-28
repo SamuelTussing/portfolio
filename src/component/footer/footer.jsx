@@ -9,7 +9,6 @@ const Footer = () =>{
             <a
                     className={styles.ButtonDownload}
                     href="/TUSSING_Samuel_developpeur_web_junior.pdf"
-                    alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"
                     >Télécharger mon cv</a>
