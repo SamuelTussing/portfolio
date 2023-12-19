@@ -94,5 +94,17 @@
         ],
         "lien":"https://samueltussing.github.io/SEO_NinaCarducci/",
         "github":"https://github.com/SamuelTussing/SEO_NinaCarducci"
+    },
+    {
+        "id":"9",
+        "title":"Travel App",
+        "image":"/img/travel-app-mockup.avif",
+        "text":"Création d'un site mobile first répertoriant des lieux touristiques",
+        "textetendu":"Projet personnel réalisé sur NextJs avec Tailwind et Typescript.",
+        "tags": [
+            "TS","NEXTJS","TAILWIND"
+        ],
+        "lien":"https://travel-app-six-delta.vercel.app/",
+        "github":"https://github.com/SamuelTussing/travel-app"
     }
 ]
