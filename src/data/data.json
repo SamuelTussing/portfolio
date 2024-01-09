@@ -19,11 +19,11 @@
     },
     {
         "id":"3",
-        "title":"Ohmyfood",
-        "image":"/img/ohmyfood-mockup.avif",
-        "text":"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
+        "title":"Travel App",
+        "image":"/img/travel-app-mockup.avif",
+        "text":"Développer un site mobile first de voyage avec Tailwind.",
         "tags": [
-            "ANIMATIONS","RESPONSIVE"
+            "NEXTJS","TAILWIND"
         ]
     }
 ]

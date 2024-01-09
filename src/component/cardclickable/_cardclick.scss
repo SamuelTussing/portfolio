@@ -26,7 +26,6 @@
         flex-direction: column;
         justify-content: flex-end;
         padding: 0px 10px;
-        cursor: pointer;
         border: none;
         width: 100%;
     }
@@ -40,23 +39,7 @@
         text-align: left;
         width: 95%;
     }
-    .CardContainerDesc1:focus{
-        bottom: 330px;
-        transition: all 0.5s ease-in
-    }
-    .CardContainerDesc1:focus p{
-        display: none;
-        transition: all .5s ease-out
-    }
-    .CardContainerDesc1:focus span{
-        display: block;
-        bottom: 80px;
-        transition: all .5s ease-out
-    }
-    .CardContainerDesc1:focus .CardDescTags1{
-        bottom: 50px;
-        transition: all .7s ease-out
-    }
+    
     
 
     
@@ -136,6 +119,7 @@
         margin-top: -15px;
         opacity: 0;
         animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+        border-radius: 0;
 
     }
     .CardLinkgh:hover{
@@ -159,23 +143,7 @@
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 80%);
         bottom: 356px;
     }
-    .CardContainerDesc1:focus{
-        bottom: 410px;
-        transition: all 0.8s ease-in
-    }
-    .CardContainerDesc1:focus p{
-        display: none;
-        transition: all 2s ease-out
-    }
-    .CardContainerDesc1:focus span{
-        display: block;
-        bottom: 80px;
-        transition: all 2s ease-out
-    }
-    .CardContainerDesc1:focus .CardDescTags1{
-        bottom: 50px;
-        transition: all 1.5s ease-out
-    }
+    
     .CardLink{
         width: 15.5rem;
         bottom: 450px;

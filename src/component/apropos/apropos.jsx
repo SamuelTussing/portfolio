@@ -11,8 +11,8 @@ const Apropos = () =>{
             <Image src={Photo} alt="" className={styles.APImg} width={200} height={300}/>
             <div className={styles.APDescContainer}>
 
+                <p className={styles.APText}>&ldquo;Graphiste chevronné devenu développeur front junior, je fusionne créativité visuelle et expertise technique pour concevoir des expériences web uniques.&ldquo;</p>
                 <p className={styles.APText}>Graphiste de formation avec quatre années d&apos;expérience dans l&apos;impression, ma spécialisation en intégration frontend fusionne les rôles de graphiste et de développeur web. Cette synergie me permet de créer des sites à la fois esthétiques et performants.</p>
-
                 <Button
                 lien = "/apropos"
                 content = "EN SAVOIR PLUS"/>  

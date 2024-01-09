@@ -15,15 +15,29 @@
         background-color: #000000;
         gap: 10px;
         padding: 3rem;
-        height: max-content;
-        margin-bottom: 60px;
+        height: 700px;
+        margin-bottom: 1px;
     }
     .dotContainer1{
         display: flex;
         gap: 10px;
         position: relative;
-        top: 84px;
+        top: -314px;
     }
+    .modalOpenButton{
+        background: none;
+        border: none;
+        color: white;
+        padding: 5px;
+        width: 15rem;
+        height: 300px;
+        cursor: pointer;
+        transition: 0.3s;
+        top: -367px;
+        position: relative;
+    }
+    
+
   
  }
  @media screen and (min-width: 768px){
@@ -36,11 +50,29 @@
         gap: 10px;
         padding: 3rem;
         height: max-content;
-        margin-bottom: 60px;
+        margin-bottom: 130px;
     }
     .dotContainer1{
         display: none;
     }
+    .modalOpenButton{
+        height: 0px;
+    }
+    .desktopcardcontainer{
+        height: 300px;
+    }
+    .modalOpenButton2{
+        height: 300px;
+        //background-color: aliceblue;
+        width: 300px;
+        z-index: 3;
+        position: relative;
+        bottom: 372px;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+    
   
  }
 

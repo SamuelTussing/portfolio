@@ -28,9 +28,6 @@ export default function APropos() {
                         Durant mes collaborations sur des projets PrestaShop, supervisées par un webmaster expérimenté, j&apos;ai acquis les fondements du référencement web. Cette compétence stratégique s&apos;est révélée cruciale dans la conception de sites visibles et efficaces, illustrant ma capacité à intégrer les principes du marketing en ligne dans mon approche. Animé par le désir de fusionner ces compétences diversifiées, j&apos;ai renforcé mes connaissances en entreprenant une formation intensive d&apos;Intégrateur Web sur neuf mois avec Openclassrooms, maîtrisant ainsi divers langages et technologies.</p>
                 </div>
             </div>
-            <p className={styles.APText}>
-            Malgré le succès de ma formation, je reconnais que mes compétences restent limitées à la phase junior du développement. Je souhaite souligner humblement que je n&apos;affirme pas une maîtrise parfaite à ce stade de ma carrière. En tant qu&apos;intégrateur web junior, je demeure ouvert à l&apos;apprentissage continu. Actuellement, je n&apos;envisage pas le travail en freelance, mais je recherche une équipe dynamique où je pourrais renforcer mes compétences, approfondir mes connaissances, et contribuer de manière significative à des projets stimulants.
-            </p>
         </div>
         
         <Competence/>
