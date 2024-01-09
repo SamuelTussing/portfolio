@@ -7,8 +7,9 @@ import Tag from "../tag/tag"
 
 const Card = ({title,text,image,tags}) =>{
  
+ 
     return(
-        <div className={styles.CardContainer}>
+        <button className={styles.CardContainer}>
             <Image src={image} alt="bakerymockup" className={styles.CardContainerImg} width={300} height={300}/>
             <div className={styles.CardContainerDesc}>
                 <h3 className={styles.CardDescTitle}>{title}</h3>
@@ -23,9 +24,9 @@ const Card = ({title,text,image,tags}) =>{
                     
                 </div>
                 
-            </div>
-                        
-        </div>
+            </div>              
+        </button>
+        
         
         
     )

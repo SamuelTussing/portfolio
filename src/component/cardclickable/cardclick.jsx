@@ -1,14 +1,11 @@
 import styles from "@/styles/page.module.scss"
 import Image from "next/image"
 import Tag from "../tag/tag"
-import logoGH from "../../../public/img/github-logo.png"
-import { useState } from "react"
 
 
 
 const Cardclick = ({title,text,textetendu,image,lien,github,tags}) =>{
- 
-    
+
   
     return(
         <div className={styles.CardContainer1}>
@@ -25,17 +22,7 @@ const Cardclick = ({title,text,textetendu,image,lien,github,tags}) =>{
                     />
                    ))}
                 </div>
-
-                
-            
-
             </button>
-                <a target="_blank" href={github} className={styles.CardLink} rel="noopener noreferrer">
-                    <Image src={logoGH} alt="" width={20} height={20}/>
-                    <span>  LIEN GITHUB</span>
-                </a>
-                <a target="_blank" href={lien} className={styles.CardLink} rel="noopener noreferrer">DECOUVRIR L&apos;APP WEB</a>
-         
         </div>
         
         
