@@ -1,8 +1,6 @@
 import styles from "@/styles/page.module.scss"
 import Image from "next/image"
 import Tag from "../tag/tag"
-import logoGH from "../../../public/img/github-logo.png"
-import { useState } from "react"
 
 
 
