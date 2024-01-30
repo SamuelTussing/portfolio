@@ -80,11 +80,11 @@ export default function Portfolio() {
                            ))}
                     </div>
                     <div className={styles.modaleLinks}>
-                    <a target="_blank" href={projet[CurrentId].github} className={styles.ModaleLink} rel="noopener noreferrer">
+                    <a target="_blank" href={projet[currentID].github} className={styles.ModaleLink} rel="noopener noreferrer">
                             <Image src={logoGH} alt="" width={20} height={20}/>
                             <span>  LIEN GITHUB</span>
                         </a>
-                        <a target="_blank" href={projet[CurrentId].lien} className={styles.ModaleLink} rel="noopener noreferrer">DECOUVRIR L&apos;APP WEB</a>
+                        <a target="_blank" href={projet[currentID].lien} className={styles.ModaleLink} rel="noopener noreferrer">DECOUVRIR L&apos;APP WEB</a>
                     </div>
                 </div>
             </div> 
