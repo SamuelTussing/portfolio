@@ -2,10 +2,10 @@
     [
         {
             "front": [
-            "SASS","JS","REACT","REDUX","NEXTJS","TS","TAILWIND"
+            "SASS","JS","REACT","REDUX","NEXTJS","TS","TAILWIND","PHP","MySQL"
             ],
             "divers": [
-            "SWAGGER","SEO","GIT","GITHUB","PRESTASHOP","PS","AI","ID","FIGMA"
+            "SWAGGER","SEO","GIT","GITHUB","PRESTASHOP","PS","AI","ID","FIGMA","WORDPRESS","PRESTASHOP","ELEMENTOR"
             ]
         }
     ]
