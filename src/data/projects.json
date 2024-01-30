@@ -109,14 +109,14 @@
     },
     {
         "id":"10",
-        "title":"Univers Quantic Sshop",
+        "title":"Univers Quantic Shop",
         "image":"/img/UQS-mockup.avif",
-        "text":"Expérience professionnelle. Création du contenu optimisé pour le blog et la boutique",
+        "text":"Expérience professionnelle. Création du contenu optimisé SEO pour le blog et la boutique en ligne.",
         "textetendu":"Recherche de mots clés pertinents et création de contenu optimisé afin de positionner la boutique sur les moteurs de recherche.",
         "tags": [
             "SEO","PRESTASHOP","ELEMENTOR"
         ],
         "lien":"https://www.univers-quantic-shop.com/",
-        "github":"/"
+        "github":"https://www.univers-quantic-shop.com/"
     }
 ]
