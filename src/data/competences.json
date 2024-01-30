@@ -5,7 +5,10 @@
             "SASS","JS","REACT","REDUX","NEXTJS","TS","TAILWIND","PHP","MySQL"
             ],
             "divers": [
-            "SWAGGER","SEO","GIT","GITHUB","PRESTASHOP","PS","AI","ID","FIGMA","WORDPRESS","PRESTASHOP","ELEMENTOR"
-            ]
+            "SWAGGER","SEO","GIT","GITHUB","PRESTASHOP","PS","AI","ID","FIGMA"
+            ],
+            "cms": [
+                "WORDPRESS","PRESTASHOP"
+                ]
         }
     ]
