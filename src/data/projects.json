@@ -106,5 +106,17 @@
         ],
         "lien":"https://travel-app-six-delta.vercel.app/",
         "github":"https://github.com/SamuelTussing/travel-app"
+    },
+    {
+        "id":"10",
+        "title":"Univers Quantic Sshop",
+        "image":"/img/UQS-mockup.avif",
+        "text":"Expérience professionnelle. Création du contenu optimisé pour le blog et la boutique",
+        "textetendu":"Recherche de mots clés pertinents et création de contenu optimisé afin de positionner la boutique sur les moteurs de recherche.",
+        "tags": [
+            "SEO","PRESTASHOP","ELEMENTOR"
+        ],
+        "lien":"https://www.univers-quantic-shop.com/",
+        "github":"/"
     }
 ]
