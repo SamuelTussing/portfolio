@@ -10,6 +10,7 @@ const Competence = () =>{
 
    let front = competences[0].front
    let divers = competences[0].divers
+   let cms = competences[0].cms
  
     return(
         <div className={styles.CompetenceMainContainer}>
@@ -37,6 +38,17 @@ const Competence = () =>{
                         <h3>Divers</h3>
                         <div className={styles.CompetencesFrontList}>
                            {divers.map(item =>(
+                            <Vignette
+                            text={item}
+                            key={item}
+                            />
+                        ))} 
+                        </div>
+                    </div>
+                    <div className={styles.CompetencesFront}>
+                        <h3>Cms</h3>
+                        <div className={styles.CompetencesFrontList}>
+                           {cms.map(item =>(
                             <Vignette
                             text={item}
                             key={item}
