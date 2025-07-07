@@ -111,12 +111,60 @@
         "id":"10",
         "title":"Univers Quantic Shop",
         "image":"/img/UQS-mockup.avif",
-        "text":"Expérience professionnelle. Création du contenu optimisé SEO pour le blog et la boutique en ligne.",
+        "text":"Expérience professionnelle. Création du contenu optimisé pour le blog et la boutique",
         "textetendu":"Recherche de mots clés pertinents et création de contenu optimisé afin de positionner la boutique sur les moteurs de recherche.",
         "tags": [
             "SEO","PRESTASHOP","ELEMENTOR"
         ],
         "lien":"https://www.univers-quantic-shop.com/",
-        "github":"https://www.univers-quantic-shop.com/"
+        "github":"/"
+    },
+    {
+        "id":"11",
+        "title":"Fungames",
+        "image":"/img/fungames.avif",
+        "text":"Expérience professionnelle. Migration d'une boutique vers Prestashop",
+        "textetendu":"MigratioN d'un site ecommerce vers Prestashop, SEO et webdesign.",
+        "tags": [
+            "SEO","PRESTASHOP","ELEMENTOR"
+        ],
+        "lien":"https://fungamesnet.fr/",
+        "github":"/"
+    },
+    {
+        "id":"12",
+        "title":"StarterCarrosserie",
+        "image":"/img/starter.avif",
+        "text":"Expérience professionnelle. Création site ecommerce",
+        "textetendu":"Création d'une boutique en ligne spécialisée. Création de contenu et optimisation du contenu.",
+        "tags": [
+            "SEO","WORDPRESS"
+        ],
+        "lien":"https://startercarrosserie.com/",
+        "github":"/"
+    },
+    {
+        "id":"13",
+        "title":"Dinitrol",
+        "image":"/img/dinitrol.avif",
+        "text":"Expérience professionnelle. Création site ecommerce BtoB",
+        "textetendu":"Création d'une boutique en ligne spécialisée. Création de contenu et optimisation du contenu.",
+        "tags": [
+            "SEO","WORDPRESS"
+        ],
+        "lien":"https://dinitrol.fr/",
+        "github":"/"
+    },
+    {
+        "id":"14",
+        "title":"Freeguessr",
+        "image":"/img/freeguessr.avif",
+        "text":"Création d'un clone de l'application Geoguessr",
+        "textetendu":"Création d'une application complète front et backend. Gestion d'une base de donnée MongoDB, maquette réalisée sur Figma",
+        "tags": [
+            "JS","MONGODB","FIGMA","API"
+        ],
+        "lien":"https://geoguessr-clone-five.vercel.app/",
+        "github":"/"
     }
 ]
