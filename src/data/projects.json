@@ -14,7 +14,7 @@
     {
         "id":"2",
         "title":"Kasa",
-        "image":"/img/kasa-mockup.avif",
+        "image":"/img/kasa-mockup.webp",
         "text":"Création d'une application web responsive de location immobilière avec SASS et React.",
         "textetendu":"Création d'une application web responsive avec SASS sous React. Utilisation d'un fichier .json et d'une fonction fetch pour simuler l'utilisation d'un serveur.",
         "tags": [
@@ -26,7 +26,7 @@
     {
         "id":"3",
         "title":"Ohmyfood",
-        "image":"/img/ohmyfood-mockup.avif",
+        "image":"/img/ohmyfood-mockup.webp",
         "text":"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
         "textetendu":"Création d'une application responsive et mise en place d'animations et de transitions CSS. Un loader à été créé ainsi qu'une série d'animations pour les menus.",
         "tags": [
@@ -38,7 +38,7 @@
     {
         "id":"4",
         "title":"Booki",
-        "image":"/img/booki-mockup.avif",
+        "image":"/img/booki-mockup.webp",
         "text":"Réalisation du site en respectant la note de synthèse pour l'intégration. Création du site en desktop first.",
         "textetendu":"Réalisation d'un site web en desktop first en suivant la maquette fournie par le graphiste et en respectant les breaking points. Le site passe au validateur W3C. ",
         "tags": [
@@ -50,7 +50,7 @@
     {
         "id":"5",
         "title":"Dolce Vita",
-        "image":"/img/dolcevita-mockup.avif",
+        "image":"/img/dolcevita-mockup.webp",
         "text":"Réalisation d'une application web de livraison pour un restaurant, développé avec NextJS et Tailwind.",
         "textetendu":"Réalisation d'une application responsive sur NextJs et découverte de Tailwind. L'application contient un panier, une liste de commandes ainsi que plusieurs pages. Réalisé en suivant un tutoriel vidéo.",
         "tags": [
@@ -62,7 +62,7 @@
     {
         "id":"6",
         "title":"ArgentBank",
-        "image":"/img/argentbank-mockup.avif",
+        "image":"/img/argentbank-mockup.webp",
         "text":"Intégration d'une maquette sous React et gestion du State via Redux Toolkit. Ecriture de routes swagger.",
         "textetendu":"Intégration d'une maquette et récupération des données sur MangoDB via Swagger. Le state est entièrement géré avec Redux Toolkit. Proposition de route API Rest pour récupérer données.",
         "tags": [
@@ -74,7 +74,7 @@
     {
         "id":"7",
         "title":"724Events",
-        "image":"/img/724events-mockup.avif",
+        "image":"/img/724events-mockup.webp",
         "text":"Introduction aux tests unitaires et aux tests fonctionnels. Recherche et correction d'erreurs silencieuses dans l'application.",
         "textetendu":"Recherche d'erreurs dans le code javascript de l'application en utilisant des tests unitaires. Proposition d'un test unitaires pour améliorer le fonctionnement du formulaire de contact",
         "tags": [
@@ -86,7 +86,7 @@
     {
         "id":"8",
         "title":"Nina Carducci",
-        "image":"/img/ninacarducci-mockup.avif",
+        "image":"/img/ninacarducci-mockup.webp",
         "text":"Optimisation d'un site web de photographe. Compression des images, minification du code et ajout de balises Schema.org",
         "textetendu":"Optimisation d'une galerie photos et compression des images passées au format .avif, suppression d'une partie inutile du fichier bootstrap et ajout de balises Schema.org.",
         "tags": [
@@ -98,7 +98,7 @@
     {
         "id":"9",
         "title":"Travel App",
-        "image":"/img/travel-app-mockup.avif",
+        "image":"/img/travel-app-mockup.webp",
         "text":"Création d'un site mobile first répertoriant des lieux touristiques",
         "textetendu":"Projet personnel réalisé sur NextJs avec Tailwind et Typescript.",
         "tags": [
@@ -110,7 +110,7 @@
     {
         "id":"10",
         "title":"Univers Quantic Shop",
-        "image":"/img/UQS-mockup.avif",
+        "image":"/img/UQS-mockup.webp",
         "text":"Expérience professionnelle. Création du contenu optimisé pour le blog et la boutique",
         "textetendu":"Recherche de mots clés pertinents et création de contenu optimisé afin de positionner la boutique sur les moteurs de recherche.",
         "tags": [
@@ -122,7 +122,7 @@
     {
         "id":"11",
         "title":"Fungames",
-        "image":"/img/fungames.avif",
+        "image":"/img/fungames.webp",
         "text":"Expérience professionnelle. Migration d'une boutique vers Prestashop",
         "textetendu":"MigratioN d'un site ecommerce vers Prestashop, SEO et webdesign.",
         "tags": [
@@ -134,7 +134,7 @@
     {
         "id":"12",
         "title":"StarterCarrosserie",
-        "image":"/img/starter.avif",
+        "image":"/img/starter.webp",
         "text":"Expérience professionnelle. Création site ecommerce",
         "textetendu":"Création d'une boutique en ligne spécialisée. Création de contenu et optimisation du contenu.",
         "tags": [
@@ -146,7 +146,7 @@
     {
         "id":"13",
         "title":"Dinitrol",
-        "image":"/img/dinitrol.avif",
+        "image":"/img/dinitrol.webp",
         "text":"Expérience professionnelle. Création site ecommerce BtoB",
         "textetendu":"Création d'une boutique en ligne spécialisée. Création de contenu et optimisation du contenu.",
         "tags": [
@@ -158,7 +158,7 @@
     {
         "id":"14",
         "title":"Freeguessr",
-        "image":"/img/freeguessr.avif",
+        "image":"/img/freeguessr.webp",
         "text":"Création d'un clone de l'application Geoguessr",
         "textetendu":"Création d'une application complète front et backend. Gestion d'une base de donnée MongoDB, maquette réalisée sur Figma",
         "tags": [
