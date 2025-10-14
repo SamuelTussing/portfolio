@@ -11,7 +11,7 @@
     {
         "id":"2",
         "title":"Kasa",
-        "image":"/img/kasa-mockup.avif",
+        "image":"/img/kasa-mockup.webp",
         "text":"Création d'une application web de location immobilière.",
         "tags": [
             "SASS","REACT","API"
@@ -20,7 +20,7 @@
     {
         "id":"3",
         "title":"Travel App",
-        "image":"/img/travel-app-mockup.avif",
+        "image":"/img/travel-app-mockup.webp",
         "text":"Développer un site mobile first de voyage avec Tailwind.",
         "tags": [
             "NEXTJS","TAILWIND"
